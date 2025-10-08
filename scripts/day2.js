@@ -1,5 +1,7 @@
 import {adventArray} from '../data/day2prisms.js';
 
+// REMINDER: ADD useful comments
+
 const dimArray = dimensions => dimensions.split('x').map(str => Number(str));
 
 const findPaperArea = (sides) => {
